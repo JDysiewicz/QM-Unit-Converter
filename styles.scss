@@ -1,0 +1,32 @@
+
+
+.main, .constants{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub{
+    box-sizing: border-box;
+    min-width: 50px;
+    min-height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-align: center;
+
+    &:hover{
+        cursor: text;
+    }
+}
+
+
+.unit{
+    padding: 20px;
+    margin: 20px;
+}
+
+.selected{
+    border: 2px solid red;
+}

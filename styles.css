@@ -1,0 +1,43 @@
+.main, .constants {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.sub {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  min-width: 50px;
+  min-height: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid black;
+  text-align: center;
+}
+
+.sub:hover {
+  cursor: text;
+}
+
+.unit {
+  padding: 20px;
+  margin: 20px;
+}
+
+.selected {
+  border: 2px solid red;
+}
+/*# sourceMappingURL=styles.css.map */
